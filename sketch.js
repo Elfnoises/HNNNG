@@ -1,3 +1,5 @@
+//based //based on https://www.openprocessing.org/sketch/424072 by Abdelrhman Wassim
+
 var rad = 6; // Width of the shape
 var xpos, ypos; // Starting position of shape
 
@@ -24,9 +26,6 @@ function setup() {
 function draw() {
 
 	background (1);
-	
-	
-	
 	
 	 //buildings
 	stroke(147, 255,0);
@@ -79,8 +78,6 @@ function draw() {
 
   // Draw the shape
   ellipse(xpos, ypos, rad, rad);
-}
 	
 
 	
-}
